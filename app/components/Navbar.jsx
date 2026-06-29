@@ -8,7 +8,7 @@ export default function Navbar() {
   href="/"
   className="text-xl font-bold tracking-wider bg-gradient-to-r from-amber-400 to-amber-500 bg-clip-text text-transparent cursor-pointer"
 >
-  ShiftX
+  NexisFlow
 </Link>
 
       {/* Navigation Links */}

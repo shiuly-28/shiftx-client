@@ -2,7 +2,7 @@ import "./globals.css";
 import Providers from "./providers";
 
 export const metadata = {
-  title: "ShiftX",
+  title: "NexisFlow",
   description: "Next-Gen Web Applications Built with Precision.",
 };
 
