@@ -71,7 +71,7 @@ export default function HowItWorks() {
               <Icon className="w-6 h-6 text-amber-400 group-hover:text-amber-300 transition-colors" />
             </div>
 
-            <h3 className="text-xl font-bold text-white mb-2 group-hover:text-amber-300 transition-colors">
+            <h3 className="text-xl font-bold  mb-2 group-hover:text-amber-300 transition-colors">
               {title}
             </h3>
             <p className="text-sm text-slate-400 leading-relaxed transition-colors group-hover:text-slate-300">
