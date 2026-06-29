@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -16,7 +17,7 @@ export default function Hero() {
       {/* Dark overlay so text stays readable */}
       <div className="absolute inset-0 pointer-events-none" />
 
-      <main className="relative z-10 max-w-4xl mx-4 my-auto pt-32 pb-12 p-8 md:p-12 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] text-center transition-all duration-300 hover:border-white/20">
+      <main className="relative z-10 max-w-4xl mx-4 my-auto pt-32 pb-12 p-8 md:p-12 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-md text-center transition-all duration-300 hover:border-white/20">
 
         {/* Subtle glow background */}
         <div
@@ -41,22 +42,22 @@ export default function Hero() {
         </p>
 
         {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <button
-            type="button"
-            className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-gradient-to-r from-amber-600 to-amber-600 hover:from-amber-500 hover:to-amber-500 font-medium rounded-xl shadow-lg shadow-amber-500/20 transition-all duration-200 active:scale-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
-          >
-            Get Started
-            <ArrowRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" />
-          </button>
+       <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+  <Link
+    href="/signin"
+    className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-gradient-to-r from-amber-600 to-amber-600 hover:from-amber-500 hover:to-amber-500 font-medium rounded-xl shadow-lg shadow-amber-500/20 transition-all duration-200 active:scale-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+  >
+    Get Started
+    <ArrowRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" />
+  </Link>
 
-          <button
-            type="button"
-            className="w-full sm:w-auto px-8 py-3.5 bg-white/5 hover:bg-white/10 font-medium rounded-xl border border-white/10 transition-all duration-200 backdrop-blur-md active:scale-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
-          >
-            Learn More
-          </button>
-        </div>
+  <Link
+    href="/signup"
+    className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-gradient-to-r from-[#00684D]-600 to-amber-600 hover:from-[#00684D]-500 hover:to-amber-500 font-medium rounded-xl shadow-lg shadow-amber-500/20 transition-all duration-200 active:scale-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+  >
+    Learn More
+  </Link>
+</div>
       </main>
     </div>
   );

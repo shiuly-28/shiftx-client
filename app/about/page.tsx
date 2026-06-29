@@ -6,7 +6,7 @@ export default function About() {
 
       <Navbar />
 
-      <main className="relative z-10 max-w-4xl mx-4 my-auto pt-32 pb-12 p-8 md:p-12 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] text-center">
+      <main className="relative z-10 max-w-6xl mx-auto mt-40 pt-32 pb-12 p-8 md:p-12 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] text-center">
 
         <span className="inline-block px-4 py-1.5 mb-6 text-xs font-semibold tracking-wider text-amber-400 uppercase bg-amber-500/10 rounded-full border border-amber-500/20">
           About ShiftX

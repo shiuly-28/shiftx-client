@@ -34,7 +34,7 @@ export default function Features() {
 
       <Navbar />
 
-      <main className="relative z-10 max-w-5xl mx-4 my-auto pt-32 pb-16 px-4 md:px-8">
+      <main className="relative z-10 max-w-6xl mx-auto pt-32 pb-16 px-4 md:px-8">
 
         <div className="text-center mb-14">
 
