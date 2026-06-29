@@ -27,12 +27,15 @@ export default function Navbar() {
 </Link>
       </div>
 
-      {/* Right CTA Button */}
-      <div>
-        <button className="px-5 py-2 text-sm bg-amber-600/20 hover:bg-amber-600/40 text-amber-500 border border-amber-500/30 rounded-lg transition-all duration-200 active:scale-95">
-          Sign In
-        </button>
-      </div>
+     {/* Right CTA Buttons */}
+<div className="flex items-center gap-3">
+  <Link href="/signin" className="px-5 py-2 text-sm bg-amber-600/20 hover:bg-amber-600/40 text-amber-500 border border-amber-500/30 rounded-lg transition-all duration-200 active:scale-95">
+    Sign In
+  </Link>
+  <Link href="/signup" className="px-5 py-2 text-sm bg-amber-600/20 hover:bg-amber-600/40 text-amber-500 border border-amber-500/30 rounded-lg transition-all duration-200 active:scale-95">
+    Sign Up
+  </Link>
+</div>
     </nav>
   );
 }
